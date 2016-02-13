@@ -1,0 +1,19 @@
+word-w : move to enfrente word by word
+before-b : move to atras word by word
+h : move to left
+j : move to down
+k : move to up
+l : move to right
+e : move to end word
+find-f,character : move to character but only in line where estas
+number,options : move number veses the option especificada exampe "2,w" move 2 words
+delete-d,option : cut characteres especificados by option example "d,3,w" cut 3 words
+x : drop character to enfrente
+sustituir-s : sustituir drop character en donde estoy and change to mode insersion
+open-o : open new down line and change to mode insert
+add-a : add text after line en donde esta 
+change-c : change text example c,w change word other c,i," 
+autocomplete PREVIUS-CTRL,p autocomplete and push p for move betwen options
+autocomplete NEXT-CTRL,n autocomplete and push n for move betwen options
+* : search word en la que esta el cursor 
+30,i,=,ESC : insert 30 =
