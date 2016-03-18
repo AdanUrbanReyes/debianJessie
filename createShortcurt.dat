@@ -1,0 +1,17 @@
+In this tutorial we will be create short curt for eclipse
+
+First create the shortcurt, all shortcurt was on /usr/share/applications/ and have extension .desktop
+
+sudo vim /usr/share/applications/eclipse.desktop
+insert next lines:
+[Desktop Entry]
+Name=Eclipse
+Comment=Eclipse
+Exec=/opt/eclipse/eclipse
+Icon=/opt/eclipse/icon.xpm
+Terminal=false
+Type=Application
+
+save and out
+ready we will have our shortcurt :D
+
