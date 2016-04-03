@@ -1,0 +1,7 @@
+first download and install the sdk
+then downalod android studio
+and finally if we have a architecture of 64 bits
+install libraries of 32 bits
+sudo apt-get install lib32z1
+sudo apt-get install lib32ncurses5
+sudo apt-get install lib32stdc++6
