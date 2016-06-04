@@ -21,6 +21,9 @@ DA44FF536B infinitum9C55E2
 	Subsystem: Toshiba America Info Systems Device f945
 
 \n\n\n
+	para obtener la ip publica actual
+	wget http://ipinfo.io/ip -qO -
+\n\n\n
 	history -c //clean history of command of terminal 
 \n\n\n
 	mysqldump -u user -p nameDataBase
