@@ -1,0 +1,15 @@
+To see current routes : 
+$ ip route show
+
+To add new route : 
+$ sudo ip route add 172.16.0.0/24 via 192.168.122.1 dev ens3
+
+where : 
+ip route add  is our command to add new route
+172.16.0.0/24 is target network which is destination range
+via 192.168.122.1 specifies the next hoop which should be directly connected to our system network.
+dev ens3 specifies our interface which is same network with 192.168.122.1
+
+
+To remove route : 
+$ sudo ip route del 172.16.0.0/24 via 192.168.122.1 dev ens3
